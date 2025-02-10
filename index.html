@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:10vh;
+        }
+    .container{
+    
+        height: 38vh;
+        width: 26%;
+     box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+     border-radius: 4%;
+    
+    }
+     #ten img{
+height: 20vh;
+width: 5vw;
+
+    }
+    .child1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .good{
+        margin-top: -14%;
+    }
+    #k1{
+color: rgb(48, 200, 150);
+
+    }
+    .child2{
+display: flex;
+justify-content: space-between;
+gap: 15%;
+margin-left: 5%;
+margin-left: 3%;
+    }
+    #tek img{
+        height: 20vh;
+        width:10vw;
+        margin: 8%;
+    }
+    .bad{
+        margin: 0%  ;
+    }
+    .main{
+        display: flex;
+
+    }
+    @media (max-width:768px) {
+        .container{
+            width:90vw;
+            height: 43vh;
+        }
+        #tek img{
+width: 40vw;
+        }
+        
+    }
+    @media (max-width:1280px) {
+       .parent{
+        flex-wrap: wrap;
+       }
+       #m1 img{
+justify-content: space-between;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="parent">
+    <div class="container">
+        <div class="child1">
+            <img src="10k.png" alt="" id="ten">
+            <div><b>10K CODERS</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="good">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    </div>
+    
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="tek.png" alt=""></div>
+            <div><b>TEK ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="bad">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    </div>
+
+    
+    <div class="container">
+        <div class="child1" id="m1">
+        <div id="tek"><img src="benin.png" alt=""></div>
+            <div><b>DIGITAL ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    </div>
+
+    
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="nejma.jpg" alt=""></div>
+            <div><b>NEJMA ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="mc.png" alt=""></div>
+            <div><b>MC ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    
+    </div>
+    
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="persona.jpg" alt=""></div>
+            <div><b>PERSONA ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    
+    </div>
+    
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="Aiite.avif" alt=""></div>
+            <div><b>AIITE ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+
+    </div>
+    
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="AI.png" alt=""></div>
+            <div><b>AI ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+    
+    </div>
+
+    <div class="container">
+        <div class="child1">
+        <div id="tek">    <img src="nist.avif" alt=""></div>
+            <div><b>NIST ACADAMY</b><br><br><span class="payment">PAYMENT SERVICES</span><br><br><i class="fa-solid fa-star" id="k1"></i>   <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>  <i class="fa-solid fa-star" id="k1"></i>     <i class="fa-solid fa-star" id="k1"></i></div>
+        </div>
+<div class="cool">
+<p><ul><li>GOOD COMMUNICATION SKILLS</li>
+<li>FULL STACK PROJECT ANY TECHNOLOGY</li></ul></p>
+</div><div class="child2">  
+<div><i> Installed 128 Times</i></div>
+<div><i style="color: blue;">view ></i></div>
+</div>
+
+    </div>
+</div>
+</body>
+</html>
